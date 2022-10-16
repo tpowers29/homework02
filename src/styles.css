@@ -1,0 +1,89 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+section {
+    height: 500px;
+    background-color: white;
+    border: solid black 1px;
+
+}
+
+.hero {
+    background-color: rgb(82, 168, 225);
+    height: 100vh;
+    color: white
+    font-size 20px;
+}
+
+footer {
+    height: 500px;
+    background-color: black;
+
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+    
+}
+
+li {
+    width: 100px;
+    text-decoration: none;
+    justify-content: space-around;
+    
+}
+
+h1 {
+    font-size: 90px;
+    margin: 0;
+}
+
+p {
+    margin: 0;
+    font-weight: 300;
+    font-size: 30px;
+}
+
+.hero-area {
+    display: flex;
+    height: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hero-text {
+    margin-left: 40px;
+    margin-bottom: 200px;
+}
+
+.button {
+    width: 200px;
+    height: 50px;
+    border-radius: 25px;
+    background-color: rgb(150, 115, 26);
+    text-align: center;
+    font-size: 30px;
+    font-weight: 300;
+    padding-top: 5px;
+    margin-top: 20px
+
+}
+.button:hover {
+    background-color: rgb(206, 225, 34);
+
+}
+
+.button:active {
+    background-color: chocolate;
+    color: aliceblue;
+}
+
+.socials {
+    padding-bottom: 200px;
+}
